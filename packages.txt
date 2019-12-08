@@ -1,0 +1,7 @@
+PACKAGES
+Django
+Pandas,
+nltk
+sys
+numpy
+joblib
