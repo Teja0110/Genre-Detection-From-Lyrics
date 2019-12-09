@@ -30,5 +30,6 @@ python manage.py runserver  (This will give u a local host address)
 	- similar lyrics.py: Song recommendation
 	- valid.py : Generating the reasons
 
-#### .\MusicGenre: Django project folder, includes all the files we mentioned above to running the web service and do prediction
+#### .\MusicGenre: 
+Django project folder, includes all the files we mentioned above to running the web service and do prediction
 	
