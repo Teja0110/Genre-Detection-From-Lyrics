@@ -1,20 +1,34 @@
-Download and install the following packages
-PACKAGES
-Django
-Pandas,
+
+Genre Prediction Project
+Bao Nguyen - Teja kalvakolanu - Nagasai Chandra
+
+
+Used Libraries
+Django 2.1.2
+Pandas
 nltk
 sys
 numpy
 joblib
+sk-learn
+Keras
 
-README
-1) download the whole folder
-2) download all the neccessary packages
-3) go to the python interface
-4) change directory to .\MusicGenre 
-5) verify whether you find a manage.py file in that directory
-6) run the command "python manage.py runserver"
-7) This will perform system checks and gives you a local host address
-8) copy paste that address to the browser
-9) The website is displayed, enter the lyrics and click predict
-10) Use nav bar to navigae to home page again
+Usage
+Change directory to .\MusicGenre and run
+python manage.py runserver  (This will give u a local host address)
+
+
+Project Description
+
+- Data: 
+	- lyrics.csv : Raw data https://www.kaggle.com/gyani95/380000-lyrics-from-metrolyrics
+
+- Files:
+	- data_preprocess.py : Pre process the data
+	- trainning.py : Training in different models
+	- Predict.py : Provide API to predict a genre by lyrics
+	- similar lyrics.py: Song recommendation
+	- valid.py : Generating the reasons
+
+- .\MusicGenre: Django project folder, includes all the files we mentioned above to running the web service and do prediction
+	
