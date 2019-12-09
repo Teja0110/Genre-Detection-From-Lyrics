@@ -1,3 +1,12 @@
+Download and install the following packages
+PACKAGES
+Django
+Pandas,
+nltk
+sys
+numpy
+joblib
+
 README
 1) download the whole folder
 2) download all the neccessary packages
